@@ -1,0 +1,31 @@
+.texto1{
+	-fx-font-family:"FunSized";
+	-fx-font-size: 15px;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow( gaussian , rgba(0,0,0,8) , 10,0,0,0 );
+}
+.texto2{
+	-fx-font-family:"Komika Text";
+	-fx-font-size: 15px;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow( gaussian , rgba(0,0,0,8) , 10,0,0,0 );
+}
+.fondo{
+	-fx-background-color:B0AA8F
+}
+.boton1{
+	-fx-font-family:"Komika Text";
+	-fx-font-size: 15px;
+	-fx-border-color: white;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow( gaussian , rgba(0,0,0,8) , 10,0,0,0 );
+}
+.degradado{
+	-fx-background: rgba(203,96,179,1);
+	-fx-background:  -moz-linear-gradient(top, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+	-fx-background: -webkit-gradient(left top,left bottom, color-stop(0%, rgba(203,96,179,1)), color-stop(50%, rgba(193,70,161,1)), color-stop(51%, rgba(168,0,119,1)), color-stop(100%, rgba(219,54,164,1)));
+	-fx-background:  -webkit-linear-gradient(top, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+	-fx-background: -o-linear-gradient(top, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+	-fx-background: -ms-linear-gradient(top, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+	-fx-background:  linear-gradient(to bottom, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+}

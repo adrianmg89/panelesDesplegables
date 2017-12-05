@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="fondoGlobal" prefHeight="600.0" prefWidth="480.0" styleClass="degradado" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vistas.PanelesControlador">
+   <children>
+      <AnchorPane fx:id="panelInferior" prefHeight="77.0" prefWidth="480.0" style="-fx-background-color: rgba(168,0,119,1);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="523.0">
+         <children>
+            <JFXButton focusTraversable="false" layoutX="381.0" layoutY="26.0" onAction="#anterior" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="381.0" AnchorPane.rightAnchor="47.0" AnchorPane.topAnchor="26.0">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Recursos/iconos/right-arrow(1).png" />
+                     </image>
+                  </ImageView>
+               </graphic></JFXButton>
+            <JFXButton layoutX="25.0" layoutY="26.0" onAction="#siguiente" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="47.0" AnchorPane.rightAnchor="381.0" AnchorPane.topAnchor="26.0">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Recursos/iconos/left-arrow.png" />
+                     </image>
+                  </ImageView>
+               </graphic></JFXButton>
+            <Label fx:id="contadorPagina" alignment="CENTER" layoutX="226.0" layoutY="30.0" styleClass="texto1" text="1/6" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="220.0" AnchorPane.topAnchor="26.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="panelSuperior" prefHeight="77.0" prefWidth="480.0" style="-fx-background-color: rgba(203,96,179,1);" AnchorPane.bottomAnchor="523.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="226.0" layoutY="30.0" styleClass="texto1" text="¿Que es un manga?" textAlignment="CENTER" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="149.0" AnchorPane.rightAnchor="149.0" AnchorPane.topAnchor="30.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="panel1" layoutY="77.0" prefHeight="441.0" prefWidth="480.0" AnchorPane.bottomAnchor="82.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="77.0">
+         <children>
+            <ImageView fitHeight="441.0" fitWidth="480.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="7.0">
+               <image>
+                  <Image url="@../../Recursos/Imagenes/fondo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="panel2" layoutY="77.0" prefHeight="441.0" prefWidth="480.0" AnchorPane.bottomAnchor="82.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="77.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="14.0" prefHeight="99.0" prefWidth="371.0" styleClass="texto2" text="Se trata de un tipo de historietas de origen Japones y el tipo de dibujo que utilizan" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="342.0" AnchorPane.leftAnchor="54.0" AnchorPane.rightAnchor="54.0" AnchorPane.topAnchor="0.0" />
+            <ImageView fitHeight="320.0" fitWidth="480.0" layoutX="18.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="17.41986083984375" AnchorPane.topAnchor="121.0">
+               <image>
+                  <Image url="@../../Recursos/Imagenes/saitama.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="panel3" layoutY="77.0" prefHeight="441.0" prefWidth="480.0" AnchorPane.bottomAnchor="82.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="77.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" prefHeight="99.0" prefWidth="371.0" styleClass="texto2" text="Se leen de derecha a izquierda y de arriba hacia abajo" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="342.0" AnchorPane.leftAnchor="54.0" AnchorPane.rightAnchor="54.0" AnchorPane.topAnchor="0.0" />
+            <ImageView fitHeight="349.0" fitWidth="328.0" layoutX="131.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="131.0" AnchorPane.rightAnchor="130.37643432617188" AnchorPane.topAnchor="94.0">
+               <image>
+                  <Image url="@../../Recursos/Imagenes/babysteps.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="panel4" layoutY="87.0" prefHeight="443.0" prefWidth="490.0" AnchorPane.bottomAnchor="82.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="77.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" prefHeight="99.0" prefWidth="371.0" styleClass="texto2" text="Suelen componerse de dibujos muy impresionantes" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="342.0" AnchorPane.leftAnchor="54.0" AnchorPane.rightAnchor="54.0" AnchorPane.topAnchor="0.0" />
+            <ImageView fitHeight="343.0" fitWidth="501.0" layoutX="1.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="0.64691162109375" AnchorPane.topAnchor="100.0">
+               <image>
+                  <Image url="@../../Recursos/Imagenes/fairy%20tail%20imagenes.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="panel5" layoutY="79.0" prefHeight="443.0" prefWidth="480.0" AnchorPane.bottomAnchor="82.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="77.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="113.0" layoutY="55.0" styleClass="texto2" text="Contiene dibujos que ocupan 2 paginas del manga" AnchorPane.bottomAnchor="342.0" AnchorPane.leftAnchor="54.0" AnchorPane.rightAnchor="54.0" AnchorPane.topAnchor="0.0" />
+            <ImageView fitHeight="343.0" fitWidth="586.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.302947998046875" AnchorPane.topAnchor="99.0">
+               <image>
+                  <Image url="@../../Recursos/Imagenes/trigun%20a%202%20hojas.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="panel6" layoutY="77.0" prefHeight="443.0" prefWidth="482.0" AnchorPane.bottomAnchor="82.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="77.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="227.0" layoutY="60.0" styleClass="texto2" text="La coleccion de un manga, se compone de diversos tomos" wrapText="true" AnchorPane.bottomAnchor="342.0" AnchorPane.leftAnchor="54.0" AnchorPane.rightAnchor="54.0" AnchorPane.topAnchor="0.0" />
+            <ImageView fitHeight="363.0" fitWidth="543.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="80.0">
+               <image>
+                  <Image url="@../../Recursos/Imagenes/colecciones.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
